@@ -1,0 +1,1223 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body{
+	background: #f7f5f2;
+	font-family: 'Red Hat Text', sans-serif;
+	color: #4b4d53;
+	margin: 0;
+  padding:0;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+.title--one {
+  font-size: 2.625rem;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin-bottom: 2rem;
+  color: #1c2528;
+}
+
+.title--two {
+  font-size: 1.875rem;
+}
+
+.title--three {
+  font-size: 1.375rem;
+  letter-spacing: -0.7px;
+}
+
+.title--four {
+  font-size: 1.0625rem;
+}
+
+.subtitle {
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+}
+
+.text--separator {
+  margin: 0 0.375rem;
+}
+
+.loader-screen {
+  background: #f7f5f2 url(../img/Pankti_Parekh_logo_gif.gif) no-repeat center center;
+  background-size: 200px 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 95px;
+  z-index: 999;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.scrolled {
+  height: 70px;
+  background: #f7f5f2;
+}
+
+.header__logo .logo__img {
+  max-height: 65px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.scrolled .logo__img {
+  max-height: 50px;
+}
+
+.mobile__logo .logo__img {
+  max-height: 110px;
+}
+
+.menu__link {
+  position: relative;
+  display: block;
+  font-size: 1.125rem;
+  padding: .8125rem 0;
+  letter-spacing: 0.5px;
+  color:#3c4649;
+}
+
+.btn--download {
+  padding: 0.75rem 1.125rem;
+  margin-top: 1.875rem;
+}
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+.section--padding {
+  padding: 4.375rem 0 5rem;
+}
+
+.section--small {
+  padding: 5rem 0;
+}
+
+.section--title {
+  margin-bottom: 4.0625rem;
+}
+
+.section--btn {
+  margin-top: 1rem;
+}
+
+.wrapper--left {
+  text-align: right;
+}
+
+.mb-sk {
+  margin-bottom: 4.0625rem;
+}
+
+.mb-dt {
+  margin-bottom: 1.75rem;
+}
+
+.mb-pr {
+  margin-bottom: 4.0625rem;
+}
+
+.mb-ct {
+  margin-bottom: 1.875rem;
+}
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+.section__hero {
+  padding-top: 6.25rem;
+}
+
+.hero__content {
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero__desc--text {
+  padding: 0.75rem 0 0.75rem 1.875rem;
+  margin-left: 1.5rem;
+  border-left: 1px solid #bdbfc0;
+}
+
+.hero__desc--text p {
+  padding-bottom: 1rem;
+}
+
+.typed-cursor{
+  font-size: 1rem;
+  margin-left: 0.25rem;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.col--mob {
+  display: none;
+}
+
+.skills__ctg {
+  border: 1px solid #d14d54;
+  border-radius: 100%;
+  padding: 1.25rem;
+  position: absolute;
+  top: -2.25rem;
+  right: 2.25rem;
+  z-index: 1;
+}
+
+.skills__ctg:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 22px 0px #d14d54, 0px 0px 22px 0px #d14d54 inset;
+  border-radius: 50%;
+  opacity: 0.15;
+}
+
+.skills__ctg:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -0.375rem;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #d14d54;
+  border-radius: 100%;
+  transition: all 0.33s ease-out 0s;
+}
+
+.skills__ctg:hover::after {
+  left: 0.375rem;
+}
+
+.ctg__icon {
+  max-width: 34px;
+}
+
+.skills__content {
+  padding: 3.125rem 2rem 1.5rem;
+  border-radius: 10px;
+}
+
+.skills__title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1.75rem;
+}
+
+.skillset {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1.5rem;
+  line-height: 1.5;
+}
+
+.skill {
+  position: relative;
+  font-size: 1.0625rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+.skill:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.625rem;
+  width: 5px;
+  height: 5px;
+  background: #d14d54;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.separator--dot {
+  display: none;
+  color:#d14d54;
+  font-size: 1.75rem;
+  margin-right: 0.5rem;
+  opacity: 0.6;
+}
+
+/*--------------------------------------------------------------
+# Experience
+--------------------------------------------------------------*/
+.badge__circle {
+  font-size: 0.8125rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  width: 3.875rem;
+  height: 3.875rem;
+  border-radius: 50%;
+}
+
+.month {
+  background: #dc777d;
+  box-shadow: 0px 9px 30px 0px rgb(209, 77, 84, 0.25);
+  z-index: 2;
+}
+
+.year {
+  margin-left: -0.5rem;
+  z-index: 1;
+}
+
+.accordion__block {
+  border-bottom: 1px solid #dfdbd5;
+}
+
+.accordion__question {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 2rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.accordion--title {
+  flex-grow: 1;
+}
+
+.accordion--title .title--three {
+  letter-spacing: 0.5px;
+}
+
+.accordion--icon {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0 1.25rem;
+  transform-style: preserve-3d;
+  transition: transform .5s;
+}
+
+.open .accordion--icon {
+  transform: rotate(180deg);
+}
+
+.open i:before {
+  content: "\e901";
+}
+
+.accordion__answer {
+  display: none;
+  padding-bottom: 2.5rem;
+  transform: translateZ(0);
+}
+
+.exp__list--item {
+  color: #1c2528;
+  font-weight: 500;
+  line-height: 1.7;
+  padding-left: 1.5rem;
+}
+
+.exp__list--item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  width: 8px;
+  height: 8px;
+  background: #d14d54;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+/*--------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
+.project__block {
+  text-align: left;
+}
+
+.project__img--block {
+  overflow: hidden;
+  margin-bottom: 1.75rem;
+}
+
+.project__img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  transition: transform 0.7s;
+}
+
+.project__img--block:hover .project__img {
+  transform: scale(1.2);
+  transition: transform 0.7s;
+}
+
+.project__title {
+  font-family: 'Red Hat Text', sans-serif;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  line-height: 1.35;
+  color: #1c2528;
+}
+
+.tech__stack {
+  font-size: 1.125rem;
+  word-spacing: 4px;
+  margin-top: 0.75rem;
+}
+
+/*--------------------------------------------------------------
+# Education
+--------------------------------------------------------------*/
+.edu__block {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #dfdbd5;
+}
+.edu__uni-logo img {
+  max-height: 95px;
+}
+
+.edu__uni {
+  font-size: 1.125rem;
+}
+
+.edu__date {
+  font-size: 0.9375rem;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact__block {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 3.75rem 3rem 3rem;
+  overflow: hidden;
+  transition: all .5s;
+  z-index: 1;
+}
+
+.contact__block:hover {
+  box-shadow: 0px 40px 70px 0px rgb(209, 77, 84, 0.3);
+}
+
+.contact__content span {
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 1.45;
+  color: #edb8bb;
+}
+
+.contact__title {
+  font-size: 2.5rem;
+  line-height: 1.25;
+}
+
+.hello {
+  position: absolute;
+  right: 13%;
+  bottom: 9%;
+  animation: wave 3.5s 0.6s infinite;
+  transform-origin: 75% 75%;
+}
+
+.hello img {
+  max-height: 55px;
+}
+
+.contact__bg {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.section__sm {
+  border-top: 1px solid #d4d0ca;
+  border-bottom: 1px solid #d4d0ca;
+}
+
+.social-media__grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-left: 1px solid #c6c8c9;
+  margin: 0;
+}
+
+.sm-element {
+  border-right: 1px solid #c6c8c9;
+  transition: all 0.4s;
+}
+
+.sm-element a {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+}
+
+.sm-element:last-child, .sm-element:nth-last-child(2) {
+  border-top: 1px solid #c6c8c9;
+}
+
+.sm-element:hover {
+  background: #f7f5f2;
+  box-shadow: 0px 9px 39px 0px rgba(188, 185, 179, 0.5);
+}
+
+.social-media__icon {
+  font-size: 1.5rem;
+}
+
+.social-media__mail {
+  font-size: 1.125rem;
+}
+
+.section__copyright {
+  padding: 3.375rem 0 1.875rem;
+}
+
+.section__copyright .heading {
+  font-size: 1.125rem;
+}
+
+.credit {
+  font-size: 15px;
+}
+
+.credit a {
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+
+.credit a:hover {
+  color: #d14d54;
+  text-decoration: underline;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(-11deg);
+  }
+  10% {
+    transform: rotate(11deg);
+  }
+  20% {
+    transform: rotate(-11deg);
+  }
+  30% {
+    transform: rotate(11deg);
+  }
+  40% {
+    transform: rotate(-11deg);
+  }
+  50% {
+    transform: rotate(11deg);
+  }
+  60% {
+    transform: rotate(-11deg);
+  }
+  70% {
+    transform: rotate(11deg);
+  }
+  80% {
+    transform: rotate(-11deg);
+  }
+  90% {
+    transform: rotate(11deg);
+  }
+  100% {
+    transform: rotate(-11deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Pages Hero
+--------------------------------------------------------------*/
+.pages-hero__content {
+  padding-top: 3rem;
+}
+
+.hero__img {
+  position: absolute;
+  right: 0;
+  bottom: -3%;
+  width: 42%;
+}
+
+.pages__wrapper {
+  margin-top: -5%;
+  padding: 4.375rem 0 2rem;
+}
+
+/*--------------------------------------------------------------
+# Competitions & Extra-curricular
+--------------------------------------------------------------*/
+.content__pt {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  background: #ebe7e0;
+  border: 2px solid #b0ada8;
+  border-radius: 50%;
+  margin: 0.375rem 1.125rem 0 0;
+  flex-shrink: 0;
+}
+
+.content__pt:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  background-color: #b0ada8;
+  border-radius: 50%;
+}
+
+.content__text {
+  /* max-width: 80%; */
+  letter-spacing: 0.5px;
+}
+
+/*--------------------------------------------------------------
+# Projects & Project Details
+--------------------------------------------------------------*/
+.projects__filter {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  padding: 0.375rem;
+  border: 1px solid #d4d0ca;
+  border-radius: 12px;
+}
+
+.filter__tab {
+  text-align: center;
+  padding: 0.875rem 0;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.4s;
+}
+
+.filter__tab:hover, .filter-active {
+  color: #fff;
+  background-color: #d8686e;
+  box-shadow: 0px 9px 39px 0px rgb(209, 77, 84, 0.4);  
+}
+
+.filter__tab:last-child {
+  border: none;
+}
+
+.pdetails__value {
+  font-size: 1.375rem;
+}
+
+.pdetails__img {
+  padding-top: 75%;
+  overflow: hidden;
+}
+
+.pdetails__img img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project__nav {
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-column-gap: 1rem;
+}
+
+.navigators {
+  grid-template-columns: 0.6fr 1fr;
+}
+
+.navigators i  {
+  font-size: 1.5rem;
+}
+
+.back-to-projects {
+  font-size: 1.5rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    background: #ebe7e0;
+    padding: 2rem 4.5rem 2.5rem 3.125rem;
+    transition: left 1.2s ease;
+    z-index: 2;
+    overflow-y: auto;
+  }
+  .navbar__mobile {
+    left: 0;
+    transition: left 1s ease;
+  }
+  .toggle__menu i {
+    font-size: 1.375rem;
+  }
+}
+
+@media only screen and (min-width: 410px) {
+  .title--one {
+    font-size: 3rem;
+  }
+  /*--------------------------------------------------------------
+  # Hero
+  --------------------------------------------------------------*/
+  .hero__content {
+    max-width: 348px;
+    margin: 0 auto 1rem;
+  }
+  /*--------------------------------------------------------------
+  # Contact
+  --------------------------------------------------------------*/
+  .contact__block {
+    width: 280px;
+    height: 280px;
+  }
+  .contact__content span {
+    font-size: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
+  .social-media__mail {
+    font-size: 1.1875rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /*--------------------------------------------------------------
+  # Typography
+  --------------------------------------------------------------*/
+  .title--one {
+    font-size: 3.75rem;
+  }
+  .title--two {
+    font-size: 2.625rem;
+  }
+  .title--three {
+    font-size: 1.625rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1.125rem;
+  }
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  .header__container {
+    padding: 0 1.5625rem;
+    max-width: unset;
+  }
+  .navbar__mobile {
+    padding: 2rem 6.875rem 2.5rem 5rem;
+  }
+  .section--padding {
+    padding: 5.625rem 0;
+  }
+  .section--small {
+    padding: 5.625rem 0;
+  }
+  /*--------------------------------------------------------------
+  # Hero
+  --------------------------------------------------------------*/
+  .hero__content {
+    max-width: 475px;
+    padding: 14% 0 5%;
+  }
+  .hero__desc--text {
+    padding: 1.5rem 0 1.5rem 2.8125rem;
+    margin-left: 3rem;
+  }
+  /*--------------------------------------------------------------
+  # Skills
+  --------------------------------------------------------------*/
+  .skillset {
+    display: block;
+    line-height: 1.75rem;
+  }
+  .skill {
+    font-size: 1.125rem;
+    margin: 0 0.3125rem 0 0;
+    padding: 0;
+  }
+  .skill:before {
+    display: none;
+  }
+  .separator--dot {
+    display: inline-block;
+  }
+  /*--------------------------------------------------------------
+  # Contact
+  --------------------------------------------------------------*/
+  .contact__block {
+    width: 380px;
+    height: 380px;
+    padding: 4.5rem 4.5rem 3.5rem;
+    display: flex;
+    align-items: center;
+  }
+  .contact__content {
+    margin-bottom: 8%;
+  }  
+  .contact__content span {
+    margin-bottom: 0.625rem;
+  }
+  .contact__title {
+    font-size: 3.375rem;
+  }
+  .hello img {
+    max-height: unset;
+  }
+  /*--------------------------------------------------------------
+  # Pages Hero
+  --------------------------------------------------------------*/
+  .pages-hero__content {
+    padding-top: 5.625rem;
+  }
+  .pages__wrapper {
+    margin-top: -25px;
+    padding-top: 5.625rem;
+  }
+  /*--------------------------------------------------------------
+  # Project Details
+  --------------------------------------------------------------*/
+  .project__nav {
+    grid-column-gap: 2.25rem;
+  }
+  .back-to-projects {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /*--------------------------------------------------------------
+  # Sections
+  --------------------------------------------------------------*/  
+  .section--title {
+    padding-left: 4rem;
+  }
+  .wrapper__box {
+    padding: 0 2rem;
+  }
+  .wrapper--right {
+    border-left: 1px solid #bdbfc0;
+  }
+  .mb-sk {
+    margin-bottom: 0;
+  }
+  .mb-dt {
+    margin-bottom: 0;
+    padding-top: 2.75rem;
+  }
+  .mb-ct {
+    margin-bottom: 0;
+  }
+  .accordion--title {
+    padding-right: 5%;
+  }
+  /*--------------------------------------------------------------
+  # Skills
+  --------------------------------------------------------------*/
+  .skills__box {
+    padding-top: 3.75rem;
+  }
+  .col--mob {
+    display: block;
+  }
+  .skills__block {
+    margin-left: -4.5625rem;
+  }
+  .skills__ctg {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  .ctg__icon {
+    max-width: 40px;
+  }
+  .skills__content {
+    margin-left: 2rem;
+    padding: 1.75rem 2rem 1.5rem
+  }
+  .skills__title {
+    position: absolute;
+    top: -1rem;
+    margin: 0;
+  }
+  /*--------------------------------------------------------------
+  # Experience
+  --------------------------------------------------------------*/
+  .exp--ab {
+    padding-top: 2.75rem;
+  }
+  /*--------------------------------------------------------------
+  # Projects
+  --------------------------------------------------------------*/
+  .project__img {
+    height: 320px;
+  }
+  /*--------------------------------------------------------------
+  # COntact
+  --------------------------------------------------------------*/
+  .section__copyright .heading {
+    font-size: 1.125rem;
+  }
+  .social-media__icon {
+    font-size: 1.75rem;
+  }
+  .section__copyright .heading {
+    font-size: 1.25rem;
+  }
+   .credit {
+     font-size: 16px;
+   }  
+  /*--------------------------------------------------------------
+  # Pages Hero
+  --------------------------------------------------------------*/
+  .pages__wrapper {
+    padding: 6.25rem 0 3rem;
+  }
+  .projects__pg {
+    height: 100px;
+    margin-bottom: 4rem;
+  }
+  /*--------------------------------------------------------------
+  # Competitions & Extra-curricular
+  --------------------------------------------------------------*/
+  .content__block {
+    margin-left: -2.75rem;
+    padding: 1.25rem 0;
+  }
+  .content__pt { 
+    width: 24px;
+    height: 24px;
+    margin: 0 2.25rem 0 0;
+  }
+  /*--------------------------------------------------------------
+  # Project Details
+  --------------------------------------------------------------*/
+  .pdetails__img {
+    height: 50vh;
+    min-height: 400px;
+    max-height: 520px;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .title--four {
+    font-size: 1.25rem;
+  }
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  .header {
+    height: 120px;
+  }
+  .header__container {
+    padding: 0 2.5rem;
+  }
+  .scrolled {
+    height: 75px;
+  }
+  .header__logo .logo__img {
+    max-height: 80px;
+  }
+  .scrolled .logo__img {
+    max-height: 60px;
+  }
+  /*--------------------------------------------------------------
+  # Sections
+  --------------------------------------------------------------*/
+  .wrapper--right {
+    flex-grow: 0;
+  }
+  .pdetails__box {
+    flex-grow: 1;
+  }
+  .wrapper__box--lg {
+    padding: 1rem 3rem;
+  }
+  .section__skills .wrapper__box--lg {
+    padding: 2rem 3rem;
+  }
+  .mb-dt {
+    padding: 0;
+  }
+  /*--------------------------------------------------------------
+  # Hero
+  --------------------------------------------------------------*/
+  .section__hero .title--one {
+    margin-bottom: 3rem;
+  }
+  .hero__content {
+    width: max-content;
+    max-width: unset;
+    padding: 11% 0 0 5%;
+    margin: 0;
+  }
+  .hero__desc--text {
+    position: absolute;
+  }
+  /*--------------------------------------------------------------
+  # Skills
+  --------------------------------------------------------------*/
+  .skills__ctg {
+    padding: 1.5rem;
+  }
+  .skills__block {
+    margin-left: -5.8125rem;
+  }
+  .skills__content {
+    margin-left: 3rem;
+  }
+  .skill {
+    margin: 0 0.625rem 0 0;
+  }
+  .separator--dot {
+    margin-right: 0.625rem;
+  }
+  /*--------------------------------------------------------------
+  # Experience
+  --------------------------------------------------------------*/
+  .badge__circle {
+    font-size: 0.875rem;
+  }
+  .exp--ab {
+    padding-top: 0;
+  }
+  .accordion--icon {
+    font-size: 1.625rem;
+  }
+  /*--------------------------------------------------------------
+  # Projects
+  --------------------------------------------------------------*/
+  .project__block {
+    max-width: 92%;
+    margin: 0 auto;
+  }
+  .project__box .project__details {
+    height: 105px;
+  }
+  /*--------------------------------------------------------------
+  # Competitions & Extra-curricular
+  --------------------------------------------------------------*/
+  .content__block {
+    margin-left: -3.75rem;
+    padding: 0.5rem 0;
+  }
+  .content__pt {
+    margin-right: 3rem;
+  }
+  /*--------------------------------------------------------------
+  # Projects & Project Details
+  --------------------------------------------------------------*/
+  .pdetails__block {
+    margin: 0 7.5% 2rem 0;
+  }
+  .pdetails__img {
+    height: 65vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  .navbar {
+    position: unset;
+    max-width: unset;
+    height: auto;
+    padding: 0;
+    background: transparent;
+  }
+  .btn--download {
+    margin: 0 0 0 1.875rem;
+  }
+  .menu__link {
+    padding: 0 1.25rem;
+    font-size: 1.0625rem;
+  }
+  .menu__link:before, .menu__link:after {
+    position: absolute;
+    top: -0.25rem;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #d14d54;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .menu__link:before {
+    content: "(";
+    left: 0.3125rem;
+  }
+  .menu__link:after {
+    content: ")";
+    right: 0.3125rem;
+  }
+  .menu__link:hover::before, .menu__link:hover::after {
+    opacity: 1;
+  }
+  /*--------------------------------------------------------------
+  # Hero
+  --------------------------------------------------------------*/
+  .hero--pattern {
+    margin-top: -5%;
+  }
+  /*--------------------------------------------------------------
+  # Sections
+  --------------------------------------------------------------*/
+  .section--title {
+    padding-left: 170px;
+  }
+  .accordion--title {
+    padding-right: 10%;
+  }
+  .edu__block {
+    padding-right: 5%;
+  }
+  .project__block {
+    max-width: 95%;
+  }
+  .project__img {
+    height: 280px;
+  }
+  /*--------------------------------------------------------------
+  # Contact
+  --------------------------------------------------------------*/
+  .contact__block {
+    align-items: baseline;
+  }
+  .sm-element:last-child, .sm-element:nth-last-child(2) {
+    border-top: none;
+  }
+  
+  /*--------------------------------------------------------------
+  # Pages Hero
+  --------------------------------------------------------------*/
+  .pages-hero__content {
+    padding-top: 10.625rem;
+  }
+  /*--------------------------------------------------------------
+  # About page
+  --------------------------------------------------------------*/
+  .about__content {
+    max-width: 680px;
+  }
+  /*--------------------------------------------------------------
+  # Competitions & Extra-curricular
+  --------------------------------------------------------------*/
+  .content__text {
+    max-width: 80%;
+  }
+  /*--------------------------------------------------------------
+  # Projects & Project Details
+  --------------------------------------------------------------*/
+  .pdetails__img img {
+    max-height: 620px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  /*--------------------------------------------------------------
+  # Typography
+  --------------------------------------------------------------*/
+  .title--one {
+    font-size: 4.25rem;
+  }
+  .section--title {
+    padding-left: 200px;
+    margin-bottom: 5rem;
+  }
+  .mb-pr {
+    margin-bottom: 5rem;
+  }
+  /*--------------------------------------------------------------
+  # Projects
+  --------------------------------------------------------------*/
+  .projects__grid {
+    padding-top: 1.5rem;
+  }
+  /*--------------------------------------------------------------
+  # Pages Hero
+  --------------------------------------------------------------*/
+  .hero__img {
+    bottom: -6%;
+  }
+  /*--------------------------------------------------------------
+  # Project Details
+  --------------------------------------------------------------*/
+  .pdetails__block {
+    margin-right: 10%;
+  }
+  .pdetails__img {
+    height: 70vh;
+    min-height: 520px;
+    max-height: 620px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .header__container {
+    padding: 0 4rem;
+  }
+  /*--------------------------------------------------------------
+  # Pages Hero
+  --------------------------------------------------------------*/
+  .pages-hero__content {
+    padding-top: 12.5rem;
+  }
+}
