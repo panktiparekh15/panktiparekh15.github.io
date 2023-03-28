@@ -14,7 +14,7 @@ def modify(row):
     return js
 
 
-data = pd.read_excel("projects.csv")
+data = pd.read_excel("projects.xlsx")
 data["project_category"] = data["project_category"].fillna("")
 data["project_url"] = data["project_url"].fillna("")
 data["project_date"] = data["project_date"].fillna("")
