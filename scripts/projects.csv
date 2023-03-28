@@ -9,7 +9,7 @@ Deep Image Colorization using Transfer Learning,ML + CV,deep-image-colorization,
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/section&gt;</pre>",,,,,,,,
-YOLO (You Look Only Once),ML + CV,YOLO,Dec 22,assets/yolo-pred.png,assets/yolo-pred.png,Python | PyTorch,"<p>Hello, I am Pankti Parekh.</p>
+YOLO (You Look Only Once),ML + CV,YOLO,Dec 22,assets/yolo_pred.png,assets/yolo_pred.png,Python | PyTorch,"<p>Hello, I am Pankti Parekh.</p>
 
 <pre>
 <code class=""language-cpp"">&lt;section class=""section__copyright bg--dark""&gt;
@@ -53,7 +53,7 @@ Glaucoma Detection using MATLAB,ML + CV,glaucoma-detection,Nov 18,assets/glaucom
 Homography Estimation,ML + CV,homography-estimation,Oct 21,assets/stitch.png,assets/stitch.png,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
 composition and reconstructed keyframe from cluste centers.
 Used YOLOv3 to compare the performance on both the original and the summarised versions of the video to evaluate accuracy of the algorithm.",,,,,,,,
-Image Morphing,ML + CV,image-morphing,Oct 21,assets/video-keyframe.jpg,assets/video-keyframe.jpg,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
+Image Morphing,ML + CV,image-morphing,Oct 21,assets/output.gif,Assets/output.gif,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
 composition and reconstructed keyframe from cluste centers.
 Used YOLOv3 to compare the performance on both the original and the summarised versions of the video to evaluate accuracy of the algorithm.",,,,,,,,
 Poisson Image Blending,ML + CV,poisson-image-blending,Nov 21,assets/video-keyframe.jpg,assets/video-keyframe.jpg,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
