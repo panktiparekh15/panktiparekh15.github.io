@@ -1,5 +1,5 @@
-proj_name,project_category,project_url,project_date,project_img,tech_stack,project_description,,,,,,,,
-Deep Image Colorization using Transfer Learning,ML + CV,deep-image-colorization,Dec 21,assets/deep-image-colorization.png,Python | PyTorch,"<pre class=""hljs"" style=""display: block; overflow-x: auto; background: rgb(0, 36, 81); color: rgb(255, 255, 255); padding: 0.5em;"">&lt;section <span class=""hljs-keyword"" style=""color: rgb(235, 187, 255);"">class</span>=<span class=""hljs-string"" style=""color: rgb(209, 241, 169);"">""section__copyright bg--dark""</span>&gt;
+proj_name,project_category,project_url,project_date,thumbnail_img,banner_img,tech_stack,project_description,,,,,,,,
+Deep Image Colorization using Transfer Learning,ML + CV,deep-image-colorization,Dec 21,assets/deep-image-colorization.png,assets/deep-image-colorization.png,Python | PyTorch,"<pre class=""hljs"" style=""display: block; overflow-x: auto; background: rgb(0, 36, 81); color: rgb(255, 255, 255); padding: 0.5em;"">&lt;section <span class=""hljs-keyword"" style=""color: rgb(235, 187, 255);"">class</span>=<span class=""hljs-string"" style=""color: rgb(209, 241, 169);"">""section__copyright bg--dark""</span>&gt;
 	&lt;div <span class=""hljs-keyword"" style=""color: rgb(235, 187, 255);"">class</span>=<span class=""hljs-string"" style=""color: rgb(209, 241, 169);"">""container""</span>&gt;
 		&lt;div <span class=""hljs-keyword"" style=""color: rgb(235, 187, 255);"">class</span>=<span class=""hljs-string"" style=""color: rgb(209, 241, 169);"">""row""</span>&gt;
 			&lt;div <span class=""hljs-keyword"" style=""color: rgb(235, 187, 255);"">class</span>=<span class=""hljs-string"" style=""color: rgb(209, 241, 169);"">""col-md-12 text-center""</span>&gt;
@@ -9,7 +9,7 @@ Deep Image Colorization using Transfer Learning,ML + CV,deep-image-colorization,
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/section&gt;</pre>",,,,,,,,
-YOLO (You Look Only Once),ML + CV,YOLO,Dec 22,assets/yolo-pred.png,Python | PyTorch,"<p>Hello, I am Pankti Parekh.</p>
+YOLO (You Look Only Once),ML + CV,YOLO,Dec 22,assets/yolo-pred.png,assets/yolo-pred.png,Python | PyTorch,"<p>Hello, I am Pankti Parekh.</p>
 
 <pre>
 <code class=""language-cpp"">&lt;section class=""section__copyright bg--dark""&gt;
@@ -24,7 +24,7 @@ YOLO (You Look Only Once),ML + CV,YOLO,Dec 22,assets/yolo-pred.png,Python | PyTo
 &lt;/section&gt;</code></pre>
 
 <p>&nbsp;</p>",,,,,,,,
-SOLO,ML + CV,SOLO,Dec 22,assets/solo.png,Python | PyTorch,"<p>Hello, I am Pankti Parekh.</p>
+SOLO,ML + CV,SOLO,Dec 22,assets/solo.png,assets/solo.png,Python | PyTorch,"<p>Hello, I am Pankti Parekh.</p>
 
 <pre>
 <code class=""language-cpp"">&lt;section class=""section__copyright bg--dark""&gt;
@@ -39,7 +39,7 @@ SOLO,ML + CV,SOLO,Dec 22,assets/solo.png,Python | PyTorch,"<p>Hello, I am Pankti
 &lt;/section&gt;</code></pre>
 
 <p>&nbsp;</p>",,,,,,,,
-Glaucoma Detection using MATLAB,ML + CV,glaucoma-detection,Nov 18,assets/glaucoma.png,ROS | C++ | Python | Sockets,"<pre>
+Glaucoma Detection using MATLAB,ML + CV,glaucoma-detection,Nov 18,assets/glaucoma.png,assets/glaucoma.png,ROS | C++ | Python | Sockets,"<pre>
 &lt;section <span style=""color:#ebbbff"">class</span>=&quot;<span style=""color:#bbdaff"">section__copyright</span> <span style=""color:#bbdaff"">bg</span>--<span style=""color:#bbdaff"">dark</span>&quot;&gt;
    &lt;<span style=""color:#bbdaff"">div</span> <span style=""color:#bbdaff"">class</span>=&quot;<span style=""color:#bbdaff"">container</span>&quot;&gt;
       &lt;<span style=""color:#bbdaff"">div</span> <span style=""color:#bbdaff"">class</span>=&quot;<span style=""color:#bbdaff"">row</span>&quot;&gt;
@@ -50,18 +50,18 @@ Glaucoma Detection using MATLAB,ML + CV,glaucoma-detection,Nov 18,assets/glaucom
       &lt;/<span style=""color:#bbdaff"">div</span>&gt;
    &lt;/<span style=""color:#bbdaff"">div</span>&gt;
 &lt;/<span style=""color:#bbdaff"">section</span>&gt;</pre>",,,,,,,,
-Homography Estimation,ML + CV,homography-estimation,Oct 21,assets/stitch.png,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
+Homography Estimation,ML + CV,homography-estimation,Oct 21,assets/stitch.png,assets/stitch.png,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
 composition and reconstructed keyframe from cluste centers.
 Used YOLOv3 to compare the performance on both the original and the summarised versions of the video to evaluate accuracy of the algorithm.",,,,,,,,
-Image Morphing,ML + CV,image-morphing,Oct 21,assets/video-keyframe.jpg,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
+Image Morphing,ML + CV,image-morphing,Oct 21,assets/video-keyframe.jpg,assets/video-keyframe.jpg,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
 composition and reconstructed keyframe from cluste centers.
 Used YOLOv3 to compare the performance on both the original and the summarised versions of the video to evaluate accuracy of the algorithm.",,,,,,,,
-Poisson Image Blending,ML + CV,poisson-image-blending,Nov 21,assets/video-keyframe.jpg,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
+Poisson Image Blending,ML + CV,poisson-image-blending,Nov 21,assets/video-keyframe.jpg,assets/video-keyframe.jpg,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
 composition and reconstructed keyframe from cluste centers.
 Used YOLOv3 to compare the performance on both the original and the summarised versions of the video to evaluate accuracy of the algorithm.",,,,,,,,
-Animatronic Hand using Wireless Module,Robotics,animatronic-hand,Nov 21,assets/animatronic-hand.png,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
+Animatronic Hand using Wireless Module,Robotics,animatronic-hand,Nov 21,assets/animatronic-hand.png,assets/animatronic-hand.png,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
 composition and reconstructed keyframe from cluste centers.
 Used YOLOv3 to compare the performance on both the original and the summarised versions of the video to evaluate accuracy of the algorithm.",,,,,,,,
-Selection of Targets for Mergers and Acquisitions,ML + CV,target-selection-for-mergers-acquisitions,Apr 19,assets/selection-of-targets.png,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
+Selection of Targets for Mergers and Acquisitions,ML + CV,target-selection-for-mergers-acquisitions,Apr 19,assets/selection-of-targets.png,assets/selection-of-targets.png,ROS | C++ | Python | Sockets,"<p>Utilized K-means clustering to group images with identical semantic</p>
 composition and reconstructed keyframe from cluste centers.
 Used YOLOv3 to compare the performance on both the original and the summarised versions of the video to evaluate accuracy of the algorithm.",,,,,,,,

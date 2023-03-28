@@ -8,7 +8,7 @@ def modify(row):
     js["project_url"] = row[2]
     js["project_date"] = str(row[3])
     js["project_img"] = row[4]
-    # js["banner_img"] = row[5]
+    js["banner_img"] = row[5]
     js["tech_stack"] = row[5]
     js["project_description"] = row[6].split("\n")
     return js
