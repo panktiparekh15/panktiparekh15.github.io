@@ -40,7 +40,7 @@ $(document).ready(function() {
           <div class="project__box col-sm-11 col-md-10 col-lg-6 col-xl-4 mb-pr filter_`+ filterString(data[i].project_category) +`">
             <a href="./projects/`+ data[i].project_url +`" class="project__block relative d-block">
               <div class="project__img--block">
-                <img src="projects/`+ data[i].project_img +`" class="project__img" />
+                <img src="projects/`+ data[i].thumbnail_img +`" class="project__img" />
               </div>
               <div class="project__details">
                 <h3 class="title--three project__title">`+ data[i].project_name +`</h3>
