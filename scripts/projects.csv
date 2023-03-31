@@ -1,4 +1,4 @@
-proj_name,proj_name,project_url,project_date,thumbnail_img,banner_img,tech_stack,project_description,,,,,,,,
+proj_name,project_category,project_url,project_date,thumbnail_img,banner_img,tech_stack,project_description,,,,,,,,
 Deep Image Colorization using Transfer Learning,ML + CV,deep-image-colorization,Dec 21,assets/deep-image-colorization.png,assets/deep-image-colorization.png,Python | PyTorch,"<pre class=""hljs"" style=""display: block; overflow-x: auto; background: rgb(0, 36, 81); color: rgb(255, 255, 255); padding: 0.5em;"">&lt;section <span class=""hljs-keyword"" style=""color: rgb(235, 187, 255);"">class</span>=<span class=""hljs-string"" style=""color: rgb(209, 241, 169);"">""section__copyright bg--dark""</span>&gt;
 	&lt;div <span class=""hljs-keyword"" style=""color: rgb(235, 187, 255);"">class</span>=<span class=""hljs-string"" style=""color: rgb(209, 241, 169);"">""container""</span>&gt;
 		&lt;div <span class=""hljs-keyword"" style=""color: rgb(235, 187, 255);"">class</span>=<span class=""hljs-string"" style=""color: rgb(209, 241, 169);"">""row""</span>&gt;
@@ -39,7 +39,7 @@ Faster-RCNN,ML + CV,Faster-RCNN,Dec 22,assets/faster_rcnn_main.png,assets/faster
 &lt;/section&gt;</code></pre>
 
 <p>&nbsp;</p>",,,,,,,,
-Extended Kalman Filter Based Visual Monocular Slam,State Estimation and Localization,Extended-Kalman-Filter-Based-Visual-Monocular-Slam,May 2022,assets/EKF.png,assets/EKF_main.png,Python | C++,"<p>Hello, I am Pankti Parekh.</p>
+Extended Kalman Filter Based Visual Monocular Slam,State Estimation and Localization,Extended-Kalman-Filter-Based-Visual-Monocular-Slam,May 22,assets/EKF.png,assets/EKF_main.png,Python | C++,"<p>Hello, I am Pankti Parekh.</p>
 
 <pre>
 <code class=""language-cpp"">&lt;section class=""section__copyright bg--dark""&gt;
