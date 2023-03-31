@@ -24,8 +24,36 @@ YOLO (You Look Only Once),ML + CV,YOLO,Dec 22,assets/yolo_main.png,assets/yolo_p
 &lt;/section&gt;</code></pre>
 
 <p>&nbsp;</p>",,,,,,,,
-Faster-RCNN,ML + CV,Faster-RCNN,Dec 22,assets/faster_rcnn_main.png,assets/faster_rcnn.png,Python | PyTorch,,,,,,,,,
-Extended Kalman Filter Based Visual Monocular Slam,State Estimation and Localization,Extended-Kalman-Filter-Based-Visual-Monocular-Slam,May 2022,assets/EKF.png,assets/EKF_main.png,Python | C++,,,,,,,,,
+Faster-RCNN,ML + CV,Faster-RCNN,Dec 22,assets/faster_rcnn_main.png,assets/faster_rcnn.png,Python | PyTorch,"<p>Hello, I am Pankti Parekh.</p>
+
+<pre>
+<code class=""language-cpp"">&lt;section class=""section__copyright bg--dark""&gt;
+	&lt;div class=""container""&gt;
+		&lt;div class=""row""&gt;
+			&lt;div class=""col-md-12 text-center""&gt;
+				&lt;p class=""heading mb-4""&gt;© 2022. All Rights Reserved.&lt;/p&gt;
+				&lt;p class=""credit""&gt;Designed &amp; Developed by &lt;a href="""" class=""text--lightp""&gt;Jahanvi Jasani&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;</code></pre>
+
+<p>&nbsp;</p>",,,,,,,,
+Extended Kalman Filter Based Visual Monocular Slam,State Estimation and Localization,Extended-Kalman-Filter-Based-Visual-Monocular-Slam,May 2022,assets/EKF.png,assets/EKF_main.png,Python | C++,"<p>Hello, I am Pankti Parekh.</p>
+
+<pre>
+<code class=""language-cpp"">&lt;section class=""section__copyright bg--dark""&gt;
+	&lt;div class=""container""&gt;
+		&lt;div class=""row""&gt;
+			&lt;div class=""col-md-12 text-center""&gt;
+				&lt;p class=""heading mb-4""&gt;© 2022. All Rights Reserved.&lt;/p&gt;
+				&lt;p class=""credit""&gt;Designed &amp; Developed by &lt;a href="""" class=""text--lightp""&gt;Jahanvi Jasani&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;</code></pre>
+
+<p>&nbsp;</p>",,,,,,,,
 SOLO,ML + CV,SOLO,Dec 22,assets/solo_main.png,assets/solo.png,Python | PyTorch,"<p>Hello, I am Pankti Parekh.</p>
 
 <pre>
