@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Extended Kalman Filter Based Visual Monocular Slam | Pankti Parekh</title>
+  <title>Obstacle Avoidance Trajectory Planner and Controller for Quadrotor | Pankti Parekh</title>
   <!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,7 +72,7 @@
 				<div class="row">
 					<div class="col-lg-10">
 						<div class="pages-hero__content">
-							<h1 class="title--two project__title section--title mb-0">Extended Kalman Filter Based Visual Monocular Slam</h1>
+							<h1 class="title--two project__title section--title mb-0">Obstacle Avoidance Trajectory Planner and Controller for Quadrotor</h1>
 						</div>					
 					</div>
 				</div>
@@ -85,11 +85,11 @@
 						<div class="hero__desc--text d-md-none">
 						<div class="pdetails__block mb-35">
 							<p class="title--four font--500 mb-6">Category</p>
-							<div class="title--three heading text--lightp font--500">State Estimation and Localization</div>
+							<div class="title--three heading text--lightp font--500">Robotics</div>
 						</div>
 						<div class="pdetails__block mb-35">
 							<p class="title--four font--500 mb-6">Technology</p>
-							<div class="title--three heading text--lightp font--500">Python | C++</div>
+							<div class="title--three heading text--lightp font--500">Python</div>
 						</div>
 						<div class="pdetails__block mb-4">
 							<p class="title--four font--500 mb-6">Year</p>
@@ -102,11 +102,11 @@
 							<div class="d-lg-flex">
 								<div class="pdetails__block mb-35">
 								<p class="pdetails__key font--500 mb-6">Category</p>
-								<div class="pdetails__value heading text--lightp font--500">State Estimation and Localization</div>
+								<div class="pdetails__value heading text--lightp font--500">Robotics</div>
 								</div>
 								<div class="pdetails__block mb-35">
 								<p class="pdetails__key font--500 mb-6">Technology</p>
-								<div class="pdetails__value heading text--lightp font--500">Python | C++</div>
+								<div class="pdetails__value heading text--lightp font--500">Python</div>
 								</div>
 								<div class="pdetails__block">
 								<p class="pdetails__key font--500 mb-6">Year</p>
@@ -121,7 +121,7 @@
 	</section>
   <section class="section--small pb-0 mb-25">
     <div class="pdetails__img relative">
-      <img src="assets/EKF_main.png" />
+      <img src="assets/waypoints.png" />
     </div>    
   </section> 
   <!--Dynamic Content-->
@@ -129,21 +129,16 @@
     <div class="container">
 			<div class="col-md-10">
 				<div class="section--title mb-0">
-					<div class="pdetails__container"><p>Hello, I am Pankti Parekh.</p>
-
-<pre>
-<code class="language-cpp">&lt;section class="section__copyright bg--dark"&gt;
-	&lt;div class="container"&gt;
-		&lt;div class="row"&gt;
-			&lt;div class="col-md-12 text-center"&gt;
-				&lt;p class="heading mb-4"&gt;© 2022. All Rights Reserved.&lt;/p&gt;
-				&lt;p class="credit"&gt;Designed &amp; Developed by &lt;a href="" class="text--lightp"&gt;Jahanvi Jasani&lt;/a&gt;&lt;/p&gt;
+					<div class="pdetails__container"><pre class="hljs" style="display: block; overflow-x: auto; background: rgb(0, 36, 81); color: rgb(255, 255, 255); padding: 0.5em;">&lt;section <span class="hljs-keyword" style="color: rgb(235, 187, 255);">class</span>=<span class="hljs-string" style="color: rgb(209, 241, 169);">"section__copyright bg--dark"</span>&gt;
+	&lt;div <span class="hljs-keyword" style="color: rgb(235, 187, 255);">class</span>=<span class="hljs-string" style="color: rgb(209, 241, 169);">"container"</span>&gt;
+		&lt;div <span class="hljs-keyword" style="color: rgb(235, 187, 255);">class</span>=<span class="hljs-string" style="color: rgb(209, 241, 169);">"row"</span>&gt;
+			&lt;div <span class="hljs-keyword" style="color: rgb(235, 187, 255);">class</span>=<span class="hljs-string" style="color: rgb(209, 241, 169);">"col-md-12 text-center"</span>&gt;
+				&lt;p <span class="hljs-keyword" style="color: rgb(235, 187, 255);">class</span>=<span class="hljs-string" style="color: rgb(209, 241, 169);">"heading mb-4"</span>&gt;© <span class="hljs-number" style="color: rgb(255, 197, 143);">2022.</span> All Rights Reserved.&lt;/p&gt;
+				&lt;p <span class="hljs-keyword" style="color: rgb(235, 187, 255);">class</span>=<span class="hljs-string" style="color: rgb(209, 241, 169);">"credit"</span>&gt;Designed &amp; Developed by &lt;a href=<span class="hljs-string" style="color: rgb(209, 241, 169);">""</span> <span class="hljs-keyword" style="color: rgb(235, 187, 255);">class</span>=<span class="hljs-string" style="color: rgb(209, 241, 169);">"text--lightp"</span>&gt;Jahanvi Jasani&lt;/a&gt;&lt;/p&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
-&lt;/section&gt;</code></pre>
-
-<p>&nbsp;</p></div>
+&lt;/section&gt;</pre></div>
 				</div>
 			</div>
     </div>
@@ -152,14 +147,14 @@
     <div class="container">
       <div class="d-flex justify-content-center">
         <div class="project__nav d-grid align-items-center">
-          <a href="YOLO" class="text--dark d-grid align-items-center navigators">
+          <a href="deep-image-colorization" class="text--dark d-grid align-items-center navigators">
             <i class="icon-chevron-left text--lightp"></i>
             <span class="text--darker">Prev</span>
           </a>
           <a href="../projects" class="back-to-projects btn__outline d-flex justify-content-center align-items-center mx-auto">
             <i class="icon-grid font--400"></i>
           </a>
-          <a href="UKF" class="text--dark text-center d-grid align-items-center navigators">
+          <a href="YOLO" class="text--dark text-center d-grid align-items-center navigators">
             <span>Next</span>
             <i class="icon-chevron-right text--lightp"></i>
           </a>
