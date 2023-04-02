@@ -655,10 +655,10 @@ body{
 }
 
 .pdetails__img img {
+  margin: 0 auto;
   position: absolute;
   top: 0;
   width: 70%;
-  height: 70%;
   object-fit: cover;
 }
 
